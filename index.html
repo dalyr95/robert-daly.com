@@ -1,0 +1,883 @@
+
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Robert Daly Development | Front-End Web Expertise</title>
+
+		<link rel="preload" href="/new-images/home/bg.svg" as="image" media="(orientation: landscape)" />
+		<link rel="preload" href="/new-images/home/bg-mobile.svg" as="image" media="(orientation: portrait)" />
+
+		<meta name="verify-v1" 					content="0vl7mTbFhleh9+M8noXFq3FGhS8SgUi/b6JyYsfGmj8=" />
+		<meta name="y_key" 						content="5796b206f43e0461" />
+		<meta name="msvalidate.01" 				content="F7B0B262CFD41012D1891FBCAE30D08B" />
+
+		<meta name="viewport" 					content="width=device-width, initial-scale=1" />
+		<meta name="description" 				content="Robert Daly is a web developer specialising in front end performant Javascript solutions." />
+		<meta name="keywords" 					content="robert daly, robert, daly, freelance, web, internet, design, development, web design, web development, javascript, node, es6, SEO, html, css, php, mysql, www" />
+
+		<meta property="og:url"                	content="https://robert-daly.com" />
+		<meta property="og:type"              	content="website" />
+		<meta property="og:title"              	content="Robert Daly Development" />
+		<meta property="og:description"        	content="Robert Daly is a web developer specialising in front end performant Javascript solutions." />
+		<meta property="og:image"              	content="https://robert-daly.com/temphomepage/stockholm.jpg" />
+		<meta property="og:image:alt"			content="Robert Daly working in Stockholm, Sweden" />
+		<meta property="og:image:width"			content="960" />
+		<meta property="og:image:height"		content="720" />
+		<meta property="fb:app_id" 				content="1697993310488547" />
+
+		<meta name="twitter:card" 				content="summary_large_image" />
+		<meta name="twitter:site" 				content="@robdalydev" />
+		<meta name="twitter:creator" 			content="@robdalydev" />
+		<meta name="twitter:title" 				content="Robert Daly Development" />
+		<meta name="twitter:description" 		content="Robert Daly is a web developer specialising in front end performant Javascript solutions." />
+		<meta name="twitter:image" 				content="https://robert-daly.com/temphomepage/stockholm.jpg" />
+
+		<meta name="theme-color" content="#ffffff" />
+
+		<link rel="manifest" href="/manifest.json" />
+
+		<link rel="amphtml" href="https://robert-daly.com/amp">
+
+		
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-4205133-1', 'auto');
+			ga('set', 'transport', 'beacon');
+			ga('send', 'pageview');
+		</script>
+
+
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+
+			html,
+			body {
+				font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+				font-size: 14px;
+				line-height: 22px;
+				margin: 0;
+				padding: 0;
+				width: 100%;
+			    text-align: justify;
+			}
+
+			body {
+				margin: 0 auto;
+				max-width: 680px;
+				padding: 20px;
+				padding-top: 39.22%;
+			}
+
+			body > * {
+				margin: 0 0 22px;
+			}
+
+			h1, h2, h3, h4, h5, h6 {
+				display: flex;
+				font-size: 14px;
+				justify-content: space-between;
+				line-height: 22px;
+				text-align: left;
+			}
+
+			h1 {
+				font-size: 40px;
+				line-height: 44px;
+			}
+
+			h1 a {
+				text-decoration: none;
+			}
+
+			h4 em {
+				font-style: italic;
+				font-weight: normal;
+			}
+
+			hr {
+				border: 0;
+				border-top: 1px solid #ccc;
+			}
+
+			table,
+			tbody,
+			tr {
+				border: 0;
+				border-collapse: collapse;
+				text-align: left;
+			    width: 100%;
+			}
+
+			tr {
+				border-bottom: 1px solid #ccc;
+			}
+
+			td {
+				padding: 5px 0;
+			}
+
+			tr td:nth-child(odd) {
+				padding-right: 20px;
+			}
+
+			a {
+				color: #000;
+			}
+
+			a[target="_blank"]::after,
+			a[class*="contact_"]::before,
+			a[class*="social_"]::before {
+				background-image: url('/new-images/external.svg');
+				background-position: 50%;
+				background-repeat: no-repeat;
+				background-size: contain;
+				content: '';
+				display: inline-block;
+				height: 14px;
+				margin: 0 0 0 4px;
+				position: relative;
+				top: 3px;
+				width: 11px;
+			}
+
+			header img {
+				opacity: 0;
+				transition: opacity 0.2s linear;
+			}
+
+			header img,
+			header::before {
+				left: 0;
+				position: absolute;
+				right: 0;
+				top: 0;
+				width: 100%;
+				z-index: 2;
+			}
+
+			header::before {
+				background: url('/new-images/home/bg.svg'), linear-gradient(to bottom, #8abbe5 0%,#82c2ff 12%,#b5f8fe 25%,#b5f8fe 32%,#fdfffe 42%,#fdfffe 51%,#737679 75%,#737679 100%);
+				background-size: 100%;
+				display: block;
+				content: '';
+				padding-top: 39.22%;
+				z-index: 1;
+			}
+
+			.contact_list,
+			.social_list {
+				display: flex;
+				justify-content: flex-start;
+				list-style: none;
+				padding: 0;
+				margin: 0;
+			}
+
+			.contact_list li,
+			.social_list li {
+				margin-right: 10px;
+			}
+
+			a[class*="contact_"]::after,
+			a[class*="social_"]::after {
+				content: none;
+			}
+
+			a[class*="contact_"]::before,
+			a[class*="social_"]::before {
+				height: 16px;
+				margin: 0 8px 0 0;
+				width: 16px;
+			}
+
+			a[class*="contact_fb"]::before {
+				background-image: url('/new-images/facebook_messenger_logo.svg');
+			}
+
+			a[class*="contact_email"]::before {
+				background-image: url('/new-images/ios-email-outline.svg');
+				background-size: 125%;
+			}
+
+			a[class*="contact_share"]::before {
+				background-image: url('/new-images/android-share-alt.svg');
+			}
+
+			a.social_twitter::before {
+				background-image: url('/new-images/icons/social-twitter.svg');
+			}
+
+			a.social_fb::before {
+				background-image: url('/new-images/icons/social-facebook.svg');
+			}
+
+			a.social_linkedin::before {
+				background-image: url('/new-images/icons/social-linkedin.svg');
+			}
+
+			a.social_gplus::before {
+				background-image: url('/new-images/icons/social-googleplus-outline.svg');
+			}
+
+			a.social_yunojuno::before {
+				background-image: url('/new-images/icons/social-yunojuno.svg');
+			}
+
+			.banner {
+				background-color: #fff;
+				bottom: 0;
+				border-top: 1px solid #ccc;
+				font-family: 'Roboto', sans-serif;
+				font-size: 14px;
+				left: 0;
+				margin: 0;
+				position: fixed;
+				transform: translate3d(0, calc(100% + 10px), 0);
+				right: 0;
+				width: 100%;
+				z-index: 10;
+
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+
+				animation-delay: 2s;
+				animation-duration: 10s;
+				animation-name: displayBanner;
+			}
+
+			.banner .banner_content::before {
+				background-image: url('/new-images/icons/96x96.png');
+				background-position: 50%;
+				background-repeat: no-repeat;
+				background-size: contain;
+				content: '';
+				position: absolute;
+				left: 20px;
+				top: 50%;
+				transform: translateY(-50%);
+				height: 48px;
+				width: 48px;
+				border-radius: 100%;
+			}
+
+			.banner > div {
+				margin: 0 auto;
+				max-width: 680px;
+			}
+
+			.banner .banner_content {
+				min-height: 48px;
+				overflow: hidden;
+				padding: 20px 20px 20px 88px;
+				position: relative;
+			}
+
+			.banner button {
+				background-color: transparent;
+				border: 0;
+				color: #039be5;
+				cursor: pointer;
+				float: right;
+				font-size: 14px;
+				font-weight: 500;
+				height: 36px;
+				line-height: 36px;
+				margin: 0;
+				outline: none;
+				padding: 0 8px;
+				-webkit-appearance: none;
+			}
+
+			.banner button:hover {
+			    background-color: #e1f3fc;
+			}
+
+			.banner.close {
+				pointer-events: none;
+				display: none;
+			}
+
+			.native_share {
+				display: none;
+			}
+
+			@keyframes displayBanner {
+				from {
+					transform: translate3d(0, calc(100% + 10px), 0);
+				}
+				5% {
+					transform: translate3d(0, 0, 0);
+				}
+				95% {
+					transform: translate3d(0, 0, 0);
+				}
+				to {
+					transform: translate3d(0, calc(100% + 10px), 0);
+				}
+			}
+
+			footer {
+				line-height: 22px;
+			}
+
+			@media (orientation: portrait) {
+				html,
+				body,
+				h2, h3, h4, h5, h6 {
+					font-size: 16px;
+					line-height: 32px;
+				}
+
+				body,
+				header::before {
+					padding-top: 100%;
+				}
+
+				header::before {
+					background: url('/new-images/home/bg-mobile.svg'), linear-gradient(to bottom, #8abbe5 0%,#82c2ff 12%,#b5f8fe 25%,#b5f8fe 32%,#fdfffe 42%,#fdfffe 51%,#737679 75%,#737679 100%);
+					background-size: contain;
+				}
+
+				h4 {
+					align-items: center;
+					display: block;
+				}
+
+				h4 em {
+					display: block;
+					white-space: nowrap;
+				}
+
+				a[target="_blank"]::after {
+					height: 16px;
+					width: 12px;
+				}
+
+				.social_list {
+					display: block;
+					line-height: 32px;
+				}
+
+				.social_list li {
+				    width: calc(50% - 20px);
+				    display: inline-block;
+				}
+			}
+		</style>
+
+		<script type="application/ld+json">
+			{
+				"@context": "http://schema.org",
+				"@type": "Person",
+				"name": "Robert Daly",
+				"givenName": "Robert",
+				"familyName": "Daly",
+				"birthDate": "1984-07-25",
+				"gender": "http://schema.org/Male",
+				"jobTitle": "Web Developer",
+				"taxID": "10026589",
+				"vatID": "234279111",
+				"image": {
+					"@type": "ImageObject",
+					"author": "Robert Daly",
+					"contentLocation": "Stockholm, Sweden",
+					"contentUrl": "https://robert-daly.com/temphomepage/stockholm.jpg",
+					"datePublished": "2018-01-22",
+					"description": "Robert Daly working in Stockholm, Sweden",
+					"name": "Robert Daly working in Stockholm, Sweden"
+				},
+				"birthPlace": {
+					"@type": "Place",
+					"address": {
+						"@type": "PostalAddress",
+						"addressCountry": "GB",
+						"addressLocality": "London",
+						"addressRegion": "England"
+					}
+				},
+				"brand": {
+					"@type" : "Organization",
+					"url" : "https://robert-daly.com",
+					"name": "Robert Daly Development",
+					"address": {
+						"@type": "PostalAddress",
+						"addressCountry": "GB",
+						"addressLocality": "London",
+						"addressRegion": "England"
+					}
+				},
+				"email": "hello@robert-daly.com",
+				"description": "Robert Daly is a web developer specialising in front-end performant Javascript solutions.",
+				"disambiguatingDescription": "Front-end developer, owner of Robert Daly development",
+				"sameAs": [
+					"https://twitter.com/robdalydev",
+					"https://www.facebook.com/robertdalydevelopment",
+					"https://www.linkedin.com/in/robertdalylondon/",
+					"https://plus.google.com/100256889998885403498",
+					"https://uk.yunojuno.com/p/robert-daly"
+				],
+				"alumniOf": {
+					"@type": "EducationalOrganization",
+					"name": "Brunel University",
+					"image": "https://upload.wikimedia.org/wikipedia/en/b/b6/Brunel_University_Logo.png",
+					"address": {
+						"@type": "PostalAddress",
+						"addressCountry": "GB",
+						"addressLocality": "London",
+						"addressRegion": "England",
+						"postalCode": "UB8 3PH",
+						"streetAddress": "Kingston Ln"
+					}
+				},
+				"address": {
+					"@type": "PostalAddress",
+					"addressCountry": "GB",
+					"addressLocality": "London",
+					"addressRegion": "England",
+					"postalCode": "SW17"
+				}
+			}
+		</script>
+
+		<script>
+			if (navigator.share) { document.head.insertAdjacentHTML('beforeend', '<style>.native_share { display: block; }</style>'); }
+		</script>
+
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113363313-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-113363313-1');
+		</script>
+	</head>
+
+	<body>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '1697993310488547',
+				xfbml      : true,
+				version    : 'v2.11'
+			});
+			FB.AppEvents.logPageView();
+		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+		<header>
+			<picture>
+				<!-- WEBPs turned out bigger file size than TinyPNG so omitted them here-->
+				<source srcset="/new-images/home/home-mobile-1800.jpg" media="(orientation: portrait) and (min-width: 500px) and (-webkit-min-device-pixel-ratio: 1.5)" />
+				<source srcset="/new-images/home/home-mobile-1000.jpg" media="(orientation: portrait) and (min-width: 0px) and (-webkit-min-device-pixel-ratio: 1.5)" />
+
+				<source srcset="/new-images/home/home-mobile-1800.jpg" media="(orientation: portrait) and (min-width: 1000px)" />
+				<source srcset="/new-images/home/home-mobile-1000.jpg" media="(orientation: portrait) and (min-width: 500px)" />
+				<source srcset="/new-images/home/home-mobile-500.jpg" media="(orientation: portrait) and (min-width: 0px)" />
+
+				<source srcset="/new-images/home/home-3264.jpg" media="(min-width: 1632px) and (-webkit-min-device-pixel-ratio: 1.5)" />
+				<source srcset="/new-images/home/home-3000.jpg" media="(min-width: 1500px) and (-webkit-min-device-pixel-ratio: 1.5)" />
+				<source srcset="/new-images/home/home-2000.jpg" media="(min-width: 1000px) and (-webkit-min-device-pixel-ratio: 1.5)" />
+				<source srcset="/new-images/home/home-1000.jpg" media="(min-width: 0px) and (-webkit-min-device-pixel-ratio: 1.5)" />
+
+				<source srcset="/new-images/home/home-3264.jpg" media="(min-width: 3000px)" />
+				<source srcset="/new-images/home/home-3000.jpg" media="(min-width: 2000px)" />
+				<source srcset="/new-images/home/home-2000.jpg" media="(min-width: 1000px)" />
+				<source srcset="/new-images/home/home-1000.jpg" media="(min-width: 500px)" />
+
+				<img src="/new-images/home/home-500.jpg" alt="Robert Daly working in Stockholm" onload="this.style.opacity = 1;"/>
+			</picture>
+
+			<h1><a href="/">Robert Daly Development</a></h1>
+
+			<div><strong>Contact Me</strong></div>
+			<ul class="contact_list">
+				<li><a href="bWFpbHRvOmhlbGxvQHJvYmVydC1kYWx5LmNvbQ==" class="decode contact_email" rel="noopener">Email</a></li>
+				<li><a href="aHR0cDovL20ubWUvcm9iZXJ0ZGFseWRldmVsb3BtZW50" class="decode contact_fb" target="_blank" rel="noopener">Facebook Messenger</a></li>
+				<li class="native_share"><a href="#" class="contact_share" target="_blank" rel="noopener">Share</a></li>
+			</ul>
+		</header>
+
+		<hr/>
+
+		<main>
+			<h3>About Me</h3>
+			<p>I am a web developer with over 18 years experience. I create high-scale, high-performance web apps and websites, and have worked across many products including ecommerce, social, PWA and AMP pages, to name but a few. I am extremely experienced in front-end technologies and progressive enhancement, and I like to take advantage of the latest advances in browser APIs such as Service Workers to maximise user engagement and satisfaction. I am truly passionate about development and I enjoy creating intuitive, performant, innovative user interfaces and breaking down complex problems into manageable and easily understood solutions.</p>
+
+			<hr/>
+
+			<h3>Key Skills</h3>
+
+			<table>
+				<tr>
+					<td><strong>Javascript</strong></td>
+					<td>
+						<ul>
+							<li>Native</li>
+							<li>ES6</li>
+							<li>Service Workers</li>
+							<li>Node</li>
+							<li>React</li>
+							<li>Angular</li>
+							<li>Vue</li>
+							<li>NPM</li>
+							<li>Webpack / Browserify</li>
+							<li>Babel</li>
+							<li>Grunt / Gulp</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td><strong>HTML/CSS</strong></td>
+					<td>
+						<ul>
+							<li>HTML5</li>
+							<li>CSS3/4</li>
+							<li>Aria / Accessibility</li>
+							<li>Microdata (JSON+LD, schema.org etc)</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td><strong>Server</strong></td>
+					<td>
+						<ul>
+							<li>AWS</li>
+							<li>Node</li>
+							<li>PHP</li>
+							<li>Python</li>
+							<li>Databases - MySQL, NoSQL etc</li>
+							<li>Apache / NGINX</li>
+							<li>Jenkins</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td><strong>Tools</strong></td>
+					<td>
+						<ul>
+							<li>Version control - Git, SVN</li>
+							<li>Adobe Suite</li>
+							<li>Sketch</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td><strong>Reporting</strong></td>
+					<td>
+						<ul>
+							<li>Google Tag Manager</li>
+							<li>Google Analytics - including e-commerce</li>
+							<li>Mixpanel</li>
+							<li>New Relic</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			
+			<h3>Employment</h3>
+
+			<h4><a href="http://www.dennis.co.uk/" target="_blank" rel="noopener">Dennis Publishing - Front End Developer (Contract)</a><em>Nov 2016 - Present</em></h4>
+			<h5><a href="https://www.buyacar.co.uk" target="_blank" rel="noopener">BuyaCar</a></h5>
+			<p>One of Dennis’ most important subsidiaries is BuyaCar (BAC), which sells new and used cars online. The backend is in Drupal behind a Varnish cache, due to dynamic nature of the site, most features have to built with Javascript and a React-esque library, <a href="http://riotjs.com/" target="_blank" rel="noopener">Riot JS</a>. My projects for BAC have included:</p>
+			
+			<h5><a href="https://www.buyacar.co.uk/cars" target="_blank" rel="noopener">Search Page</a></h5>
+			<p>An API driven search page with its filters built on HTML naming conventions. There are no hard coded requirements, as long as the API follows the schema, filters can be added and removed as needed without intervention. The page follows browser conventions as closely as possible to provide as native an implementation as possible, these include using the <a href="https://developer.mozilla.org/en-US/docs/Web/API/History_API#Adding_and_modifying_history_entries" target="_blank" rel="noopener">History API</a> so URLs change dynamically and are in turn, fully shareable, along with native controls where possible for mobile. To achieve SEO visibility, it also dynamically creates fully compliant <a href="https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fwww.buyacar.co.uk%2Fcars" target="_blank" rel="noopener">JSON+LD entries</a> to allow indexing. GA ecommerce Product List tracking allows to fully track list visibility and conversion.</p>
+			
+			<h5><a href="https://www.buyacar.co.uk/startfinance?productAdvertId=1345614&financeQuoteId=5161719&deliveryMethodId=18" target="_blank" rel="noopener">Forms</a></h5>
+			<p>When users have decided on a car, they need to submit their details to BAC, these forms used to be hard coded and inflexible, I built a form system based on a JSON feed and <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/Constraint_validation" target="_blank" rel="noopener">HTML5 Constraint Validation API</a>. This enables forms to be created quickly and dynamically by creating a JSON object and avoids the need for manually creating Javascript validation libraries. Using Regular Expressions in the HTML pattern attribute, CSS and native browser validation can do the heavy lifting of validation, specific input types enable mobile users to fill out the form quickly and autocomplete hints enable the browser to complete the majority of the form. These forms have increased conversion by 20% with desktop and mobile user’s time to completion is roughly the same.</p>
+
+			<h5><a href="https://www.buyacar.co.uk/aston-martin/db9/db9-coupe/v12-gt-2dr-touchtronic-auto-71619/deal-1246393" target="_blank" rel="noopener">Car Deal Page Gallery</a></h5>
+			<p>A performant responsive gallery built with Riot JS. If <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scroll_Snap_Points" target="_blank" rel="noopener">CSS Scroll Snap</a> support is detected on mobile, scrolling between images is handled by the browser’s native scroll giving a more natural feel. Also for mobile users, an enhanced full page gallery is available, with double tap to zoom and pinch to zoom support. Alongside nice features such as disabling page zooming when open which can lead to UI elements disappearing and the page being in a different state than when the gallery was opened. Also on this page I implemented <a href="https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fwww.buyacar.co.uk%2Fbmw%2F1-series%2F1-series-hatchback%2F116d-m-sport-5dr-nav-65057%2Fdeal-1454189" target="_blank" rel="noopener">Vehicle microdata</a>.</p>
+
+			<h5><a href="https://www.buyacar.co.uk/vehicle-config/options?tid=1418&vids=78217" target="_blank" rel="noopener">Build to Order Options Page</a></h5>
+			<p>When ordering a new car, a user can select various options, what colour they want for example, but of course you can’t have two colours for the same car. The combination of options is effectively limitless and this is before “Packs” are included, which can change multiple options of the car in one go. The complexity grows as more options are added and conflicts between options escalate, my task was to create the logic to work out and prevent conflicts, then when a conflict does arrive, present the user with an understandable dialog as to which options they choose.</p>
+			
+			<hr/>
+
+			<h5>Other Dennis projects</h5>
+			
+			<h6>Performance</h6>
+			<p>One of the first projects I worked on for Dennis was improving the front-end performance, this including auditing sites and delivering front end best practice such as how assets are loaded and perceived performance.</p>
+			<p>For one site, <a href="http://www.theweek.co.uk" target="_blank" rel="noopener">The Week</a>, which has four million unique visitors a month, this resulted in:</p>
+
+			<table>
+				<tr>
+					<td><strong>HTML</strong></td><td>31% reduction</td>
+					<td><strong>CSS</strong></td><td>63% reduction</td>
+				</tr>
+				<tr>
+					<td><strong>JS</strong></td><td>46% reduction</td>
+					<td><strong>Fonts</strong></td><td>23% reduction</td>
+				</tr>
+				<tr>
+					<td><strong>Page load time</strong></td>
+					<td colspan="3">~1 second from 2.2 seconds  ~55% reduction</td>
+				</tr>
+			</table>
+
+			<p>These optimisations reduced data served by 1.39 Terabytes (or 1,430 Gigabytes) per month. The reduction in page load time saved users 56 days NOT waiting for the page to load per month. </p>
+			<p>To demonstrate the final results, here is a before and after video of <a href="https://www.youtube.com/watch?v=3puahUn4n3Y" target="_blank" rel="noopener">The Week loading on a regular 3G network connection.</a></p>
+			<p>During this audit, I also noticed that JS performance seemed sluggish, looking into it I discovered one of the libraries used was implementing a bind polyfill that was overwriting the browser's native method, slowing down all Dennis sites, this <a href="https://jsperf.com/bind-vs-custom/5" target="_blank" rel="noopener">polyfill was 4500% slower!</a></p>
+
+			<hr/>
+
+			<h4><a href="https://app.spotter.online" target="_blank" rel="noopener">Spotter - Lead Developer (Side Project)</a><em>2015 - Present</em></h4>
+			<p>Spotter is a side project I work on with former colleagues in my spare time. It an affiliate based business providing gyms and personal trainers access to thousands of fitness related products which they can recommend to their clients. Once their clients buy the recommended products, the trainer in turn receives a share of the commision.</p>
+			<p>It is a mobile optimised <a href="https://developers.google.com/web/progressive-web-apps/" target="_blank" rel="noopener">Progressive Web App</a> built in React and browserify. Being the only front-end developer on the project allows me to promote and implement the latest technologies such as <a href="https://developers.google.com/web/fundamentals/primers/service-workers/" target="_blank" rel="noopener">Service Workers</a>, <a href="https://developers.google.com/web/fundamentals/web-app-manifest/" target="_blank" rel="noopener">Web App Manifests</a>, <a href="https://developers.google.com/web/updates/2016/09/navigator-share" target="_blank" rel="noopener">Web Share API</a> among others to further the business. Airtable, GTM and Mixpanel are used for reporting.</p>
+
+			<hr/>
+
+			<h4><a href="http://uk.businessinsider.com/london-hotel-ranking-startup-top10-raised-12-million-in-funding-but-now-its-shutting-down-2015-12?r=US&IR=T" target="_blank" rel="noopener">Top10 Hotels - Lead Developer</a><em>2013 - 2016</em></h4>
+			<p>In 2013 Top10 pivoted into the hotel market, my role as a Lead Front End Developer involved creating a fast, performant, responsive, scalable website using the latest technologies. Server side was initially built in Python, with Backbone serving the client views. As Node matured, the decision was made to be an isomorphic application, with the same code running on the client and server.</p>
+			<p>Due to the nature of our partner APIs, Top10 relied on fast continuous polling and DOM manipulation which has inherent performance issues, when Facebook released React, the virtual DOM was an ideal fit for what we wanted to achieve and we implemented it in 2014.</p>
+			<p>Performance and accessibility were huge aspects of Top10, shortly after moving to React, we noticed performance on older devices was slow and after one sprint had achieved a constant 60fps even on original iPads.</p>
+			<p>As the business grew so did the need for tooling, I was involved in many internal projects which could use the latest technology. Tools were built in Express.js, Angular, Scala’s Play Framework and Wordpress among others.</p>
+			<p>Top10 Hotels was breaking even, when at the end of 2015 it was decided that due to the reliance on partners Booking.com and Expedia (who had purchased competitor Trivago), along with Google and Amazon entering the space, that expanding the business would become increasingly difficult and the decision was made to close Top10 Hotels.</p>
+
+			<hr/>
+
+			<h4>Top10 Lists - Senior Developer<em>2011 - 2013</em></h4>
+			<p>Top10 Lists was a startup company whose mission was to enable users to create their “Top 10 Lists”, such as “Top 10 Films” or “Top 10 Bands”. It was an API driven site based on Freebase data to provide structured data for users, built in Node and Backbone.js. In 2011 we were approached by Spotify to work on their upcoming WebKit based app platform, in 2 months we had a Spotify app ready and was in the <a href="https://news.spotify.com/uk/2011/11/30/say-hello-to-spotify-apps/" target="_blank" rel="noopener">Spotify App Finder</a> on launch. The <a href="https://news.spotify.com/uk/2012/02/13/app-of-the-day-top10app-del-dia-top-10app-des-tages-top10app-van-de-dag-top-10/" target="_blank" rel="noopener">app</a> was a huge success generating over 200,000  users with over 1 million songs recommended.</p>
+
+			<hr/>
+
+			<h4><a href="https://www.uswitch.com" target="_blank" rel="noopener">uSwitch Communications - Front End Developer</a><em>2010 - 2011</em></h4>
+			<p>I joined Top10 at the start of 2010, until they were acquired by uSwitch in 2011.  My role involved working on their incredibly successful price comparison product, including <a href="https://www.uswitch.com/broadband/speedtest/" target="_blank" rel="noopener">Speedtest</a> and <a href="https://www.uswitch.com/broadband/speedtest/streetstats/" target="_blank" rel="noopener">StreetStats</a>.</p>
+
+			<hr/>
+
+			<h4><a href="http://www.dennis.co.uk/" target="_blank" rel="noopener">Dennis Publishing</a><em>2008 - 2010</em></h4>
+			<p>I worked across Dennis Publishing’s magazine portfolio at the time, included Maxim, Auto Express, Men’s Fitness and MacUser among others. Advertising work included clients such as Intel, Microsoft, EA, Dell and O2 to name a few.</p>
+
+			<hr/>
+
+			<h3>Miscellaneous Projects</h3>
+
+			<h4>Facebook Messenger Bot<em>2018</em></h4>
+			<p>When working on this site and implementing the Facebook Messenger intergration, implementing a Messenger bot piqued my interest. I implemented a "Get Started" bot, I will add to its repartee as I get more data as to what people are asking. You can try it by clicking the link below and then clicking "Get Started" in Messenger.</p>
+			<p><a href="aHR0cDovL20ubWUvcm9iZXJ0ZGFseWRldmVsb3BtZW50" class="decode contact_fb" target="_blank">Contact Robert Daly via Facebook Messenger</a></p>
+			
+			<h4>USN Sport<em>2016</em></h4>
+			<p>A project that needed results quickly, USN hired me to optimise their website for mobile. Applying best practice and responsive design in a week’s work, the result improved their mobile conversion by 300%.</p>
+			
+			<h4>Roskilde Festival App<em>2013</em></h4>
+			<p>Roskilde Festival is a music festival outside Copenhagen, Denmark. As a personal project I built a webapp where users can login via Facebook and connect with their friends. Features of the app, included find your friends, create events, festival planner, interactive map, news, tweets, offline availability (using appcache at the time), English/Danish language. After a brief Google Adwords campaign, it ended up with over 200 users.</p>
+			
+			<h4>Call of Duty Elite App - iOS / Android<em>2012</em></h4>
+			<p>For the launch of Call of Duty: Modern Warfare 3, Activision and Infinity Ward contracted out to Ideaworks a custom Phonegap project for stat-tracking, replays, equipment loadouts among other functionality. I was brought on as a senior front-end consultant and implemented load out logic, stat reporting, performance improvements for older mobile devices and other features.</p>
+		</main>
+
+		<footer>
+			<hr/>
+
+			<ul class="social_list">
+				<li><a href="https://twitter.com/robdalydev" class="social_twitter" target="_blank" rel="noopener">Twitter</a></li>
+				<li><a href="https://www.facebook.com/robertdalydevelopment" class="social_fb" target="_blank" rel="noopener">Facebook</a></li>
+				<li><a href="https://www.linkedin.com/in/robertdalylondon/" class="social_linkedin" target="_blank" rel="noopener">LinkedIn</a></li>
+				<li><a href="https://plus.google.com/100256889998885403498" class="social_gplus" target="_blank" rel="noopener">Google+</a></li>
+				<li><a href="https://uk.yunojuno.com/p/robert-daly" class="social_yunojuno" target="_blank" rel="noopener">YunoJuno</a></li>
+			</ul>
+
+			<hr/>
+			<small>
+				Robert Daly Development Ltd is a company registered in England and Wales.<br/>
+				Registered number: 10026589.<br/>
+				VAT registration number: 234279111.<br/>
+			</small>
+		</footer>
+
+		<script>
+			(function() {
+				var decodeLink = function(e) {
+					var $target 	= e.currentTarget;
+					var href 		= $target.getAttribute('href');
+					$target.href 	= atob(href);
+
+					var type = $target.getAttribute('class').match(/contact_([A-Za-z]*)/);
+
+					if (type && type[1]) {
+						ga('send', {
+	                        hitType: 'event',
+	                        eventCategory: 'Page',
+	                        eventAction: 'Contact',
+	                        eventLabel: type[1]
+	                    });
+					}
+
+					$target.removeEventListener('mousedown', decodeLink, {
+						passive: true,
+						once: true
+					});
+				};
+
+				[].slice.call(document.getElementsByClassName('decode')).forEach(function($a) {
+					$a.addEventListener('mousedown', decodeLink, {
+						passive: true,
+						once: true
+					});
+				});
+
+				[].slice.call(document.querySelectorAll('.native_share a')).forEach(function($el) {
+					$el.addEventListener('click', function(e) {
+						e.preventDefault();
+
+						if (navigator.share) {
+							navigator.share({
+								title: 'Robert Daly Development',
+								text: 'Welcome to Robert Daly Development. I create high-scale, high-performance web apps and websites including ecommerce, social, PWA and AMP pages.',
+								url: 'https://robert-daly.com/',
+							})
+							.then(() => ga('send', {
+		                        hitType: 'event',
+		                        eventCategory: 'Page',
+		                        eventAction: 'Share',
+		                        eventLabel: 'Native Success',
+		                        eventValue: 1
+		                    }))
+							.catch((error) => ga('send', {
+		                        hitType: 'event',
+		                        eventCategory: 'Page',
+		                        eventAction: 'Share',
+		                        eventLabel: 'Native Failure',
+		                        eventValue: 0
+		                    }));
+						}
+					});
+				});
+
+				window.addEventListener('beforeinstallprompt', function(e) {
+					ga('send', {
+                        hitType: 'event',
+                        eventCategory: 'Page',
+                        eventAction: 'Save to Homepage',
+                        eventLabel: 'Shown'
+                    });
+
+					e.userChoice.then(function(choiceResult) {
+						if(choiceResult.outcome == 'dismissed') {
+							ga('send', {
+		                        hitType: 'event',
+		                        eventCategory: 'Page',
+		                        eventAction: 'Save to Homepage',
+		                        eventLabel: 'Cancelled'
+		                    });
+						}
+						else {
+							ga('send', {
+		                        hitType: 'event',
+		                        eventCategory: 'Page',
+		                        eventAction: 'Save to Homepage',
+		                        eventLabel: 'Added'
+		                    });
+						}
+					});
+				});
+			})();
+
+			
+
+			(function() {
+				window.banner = {};
+
+				window.displayBanner = function() {
+					var dismissText = /(iOS|iPad)/.test(window.navigator.userAgent) ? 'OK' : 'DISMISS';
+
+					var template = `
+						<div class="banner">
+							<div class="banner_content">
+								<div>robert-daly.com is now available offline</div>
+								<button onclick="window.removeBanner(event)">${dismissText}</button>
+							</div>
+						</div>
+					`;
+
+					var removeBannerDOM = function(e) {
+						if (e.target.matches('.banner')) { removeBanner(); }
+
+						document.body.removeEventListener('animationend', removeBannerDOM, {
+							once: true,
+							passive: true
+						});
+					};
+
+					document.body.addEventListener('animationend', removeBannerDOM, {
+						once: true,
+						passive: true
+					});
+
+					document.body.insertAdjacentHTML('beforeend', template);
+
+                    ga('send', {
+                        hitType: 'event',
+                        eventCategory: 'Page',
+                        eventAction: 'Banner',
+                        eventLabel: 'Display - Available Offline',
+                        nonInteraction: true
+                    });
+				}
+
+				window.removeBanner = function(e) {
+					document.body.removeChild([].slice.call(document.getElementsByClassName('banner'))[0]);
+
+					if (e) {
+	                    ga('send', {
+	                        hitType: 'event',
+	                        eventCategory: 'Page',
+	                        eventAction: 'Banner',
+	                        eventLabel: 'Close - Available Offline'
+	                    });
+					}
+				}
+
+				window.addEventListener('load', function() {
+					if ('serviceWorker' in navigator) {
+						navigator.serviceWorker.register('sw.js').then(function(registration) {
+							console.log('ServiceWorker registration successful with scope: ', registration.scope);
+					
+							var serviceWorker;
+							if (registration.installing) {
+								serviceWorker = registration.installing;
+							} else if (registration.waiting) {
+								serviceWorker = registration.waiting;
+							} else if (registration.active) {
+								serviceWorker = registration.active;
+							}
+
+							if (serviceWorker) {
+								serviceWorker.addEventListener('statechange', function(e) {
+									if (e.target.state === 'activated') {
+										displayBanner();
+									}
+								});
+							}
+						}, function(err) {
+							console.log('ServiceWorker registration failed: ', err);
+						});
+					}
+				}, {
+					once: true,
+					passive: true
+				});
+			})();
+		</script>
+	</body>
+</html>
