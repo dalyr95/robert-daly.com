@@ -7,3 +7,12 @@
 ![Lighthouse SEO score: 100/100](https://lighthouse-badge.appspot.com/?score=100&compact&category=SEO&random)
 
 Robert Daly is a web developer specialising in front end performant Javascript solutions.
+
+Features
+* ServiceWorker
+  * Offline support
+  * Workbox
+* Web Share API
+* Web Manifest
+  * Installable
+  * Install Prompt
